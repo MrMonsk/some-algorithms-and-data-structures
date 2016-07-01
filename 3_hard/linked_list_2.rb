@@ -36,16 +36,16 @@ class Stack
 
 end
 
-def reverse_list(list, previous=nil)
-	original_next_node = list.next_node
-	# previous = list.next_node
-	list.next_node = previous
-	if original_next_node
-		reverse_list(original_next_node, list)
-	else
-		list
-	end
-end
+# def reverse_list(list, previous=nil)
+# 	original_next_node = list.next_node
+# 	# previous = list.next_node
+# 	list.next_node = previous
+# 	if original_next_node
+# 		reverse_list(original_next_node, list)
+# 	else
+# 		list
+# 	end
+# end
 # better solution
 def reverse_list(list_node)
   reversed = nil

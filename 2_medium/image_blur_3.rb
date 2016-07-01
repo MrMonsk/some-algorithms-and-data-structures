@@ -13,7 +13,6 @@ class Image
 		distance.times do
 			blur_
 	end
-
 end
 
 image = Image.new([

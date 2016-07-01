@@ -18,10 +18,7 @@ def depth_search(node, value)
 		child_value = depth_search(child, value)
 		while child_value
 			return child_value
-
 		end
-
-
 	end
 end
 

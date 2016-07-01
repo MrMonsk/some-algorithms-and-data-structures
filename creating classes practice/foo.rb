@@ -1,7 +1,6 @@
 #foo bar baz - common convention
 
 class Parent
-
 	def implicit
 		puts "Parent implicit"
 	end

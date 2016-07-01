@@ -1,4 +1,3 @@
-
 def collatz(n)
 	sequence = []
 	sequence << n
